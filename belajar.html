@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pembelajaran</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- bootstrap -->
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Pembelajaran</a>
+      
+      <div class="navbar-nav">
+        <a href="index.html">Home</a>
+        <a href="#informasi">Informasi Pembelajaran</a>
+      </div>
+
+      <div class="navbar-extra">
+        
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Materi Section Start -->
+    <section class="materi" id="materi">
+      <h1><span>Materi</span> Pembelajaran</h1>
+      <p>Daftar materi pembelajaran yang tersedia.</p>
+      <div class="row">
+        <div class="materi-card">
+          <div class="materi-icons">
+            <a href="#"><i data-feather="book"></i></a>
+            <a href="#"><i data-feather="eye"></i></a>
+          </div>
+          <div class="materi-image">
+            <img src="img/informasi/1.jpg" alt="Materi 1" />
+          </div>
+          <div class="materi-content">
+            <h3>Materi 1</h3>
+            <div class="materi-stars"></div>
+            <p>Deskripsi singkat materi 1.</p>
+          </div>
+        </div>
+        <div class="materi-card">
+          <div class="materi-icons">
+            <a href="#"><i data-feather="book"></i></a>
+            <a href="#"><i data-feather="eye"></i></a>
+          </div>
+          <div class="materi-image">
+            <img src="img/informasi/2.jpg" alt="Materi 2" />
+          </div>
+          <div class="materi-content">
+            <h3>Materi 2</h3>
+            <div class="materi-stars"></div>
+            <p>Deskripsi singkat materi 2.</p>
+          </div>
+        </div>
+      </section>
+    <section style="padding: 4rem 7%; background-color: #111;">
+  <h2 style="color: #d79656; margin-bottom: 1rem;">
+    Langkah Belajar Efektif
+  </h2>
+
+  <ol style="margin-left: 2rem; line-height: 2;">
+    <li>Tentukan materi yang ingin dipelajari.</li>
+    <li>Baca dan pahami materi secara bertahap.</li>
+    <li>Catat informasi yang dianggap penting.</li>
+    <li>Lakukan latihan untuk menguji pemahaman.</li>
+  </ol>
+</section>
+<section
+  id="multimedia"
+  style="padding: 4rem 7%; background-color: #1a1a1a;"
+>
+  <h2 style="color: #d79656; margin-bottom: 2rem;">
+    Media Pembelajaran
+  </h2>
+
+  <h3 style="margin-bottom: 1rem;">Video Belajar HTML</h3>
+
+  <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/UB1O30fR-EE"
+    title="Video pembelajaran HTML"
+    allowfullscreen
+    style="max-width: 100%; margin-bottom: 2rem;"
+  ></iframe>
+
+  <h3 style="margin-bottom: 1rem;">Contoh Audio dalam HTML</h3>
+
+  <audio controls style="max-width: 100%;">
+    <source
+      src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"
+      type="audio/mpeg"
+    />
+    Browser Anda tidak mendukung pemutar audio.
+  </audio>
+
+  <p style="margin-top: 1rem;">
+    Video dan audio merupakan contoh penggunaan elemen multimedia pada website.
+  </p>
+</section>
+    <div class="informasi-section" id="informasi">
+    <h2>Informasi <span>Untukmu</span></h2>
+    <p class="subtitle">Daftar dosen dan tenaga pengajar mata kuliah Pemrograman Web.</p>
+
+    
+    <table class="table-pengajar">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Nama Pengajar</th>
+                <th>Pembelajaran</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Bani Bintoro</td>
+                <td>Web Development & Security</td>
+                <td><span class="status aktif">Aktif</span></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Dedi Aprianto</td>
+                <td>Front-End Engineering</td>
+                <td><span class="status aktif">Aktif</span></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Ma'fud</td>
+                <td>Back-End & Database</td>
+                <td><span class="status aktif">Aktif</span></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+    <!-- footer start -->
+    <footer>
+      <div class="social">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+        <a href="#"><i data-feather="mail"></i></a>
+
+        <div class="links">
+          <a href="index.html">Home</a>
+          <a href="#about">Tentang Kami</a>
+          <a href="#materi">Materi</a>
+
+          <div class="credit">
+            <p>
+              Create by <a href="">Kelompok # Pemrograman Web 1</a>. | &copy;
+              2026
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javascript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
